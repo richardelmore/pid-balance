@@ -14,9 +14,9 @@
 #define DISTANCE_BUFFER_SIZE 16
 
 // Define globals
-const double kP = 0.045;
-const double kI = 0.05;
-const double kD = 0.09;
+const double kP = 0.0;
+const double kI = 0.0;
+const double kD = 0.0;
 int target;
 
 unsigned long nextCycle = 0;                        // time (in millis) when we will next evaluate the PID controller.
